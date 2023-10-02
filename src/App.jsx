@@ -13,13 +13,13 @@ function App() {
     if (count <= 10 && count > 0) setCount((prev) => prev - 1);
   };
   return (
-    <>
+    <div className="container1">
       <Counter
         count={count}
         onDecrement={onDecrement}
         onIncrement={onIncrement}
       />
-    </>
+    </div>
   );
 }
 
